@@ -15,6 +15,8 @@
 
 ## Install
 
+First add custom bucket and install completion:
+
 ```powershell
 # add auto-update bucket
 scoop bucket add scoop-tools https://github.com/roose/scoop-tools
@@ -23,7 +25,7 @@ scoop bucket add scoop-tools https://github.com/roose/scoop-tools
 scoop install nimble-completion
 ```
 
-## Usage
+then, add to profile:
 
 ```powershell
 # add to you powershell profile
